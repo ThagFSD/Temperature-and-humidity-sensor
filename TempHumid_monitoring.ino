@@ -1,13 +1,13 @@
-#define BLYNK_TEMPLATE_ID "TMPL6knRUNNWy" // Template ID
+#define BLYNK_TEMPLATE_ID "Your template ID" // Template ID
 #define BLYNK_TEMPLATE_NAME "Temperature and humidity sensor" // Template name
-#define BLYNK_AUTH_TOKEN "vJVjX8EBeLOKUumCI77EqGv6xvj2K7oy" // Blynk token
+#define BLYNK_AUTH_TOKEN "Your blynk token" // Blynk token
 
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h> // ESP8266
 #include <BlynkSimpleEsp8266.h> //Blink Lib
 #include "DHT.h" // DHT lib
 
-char auth[] = "vJVjX8EBeLOKUumCI77EqGv6xvj2K7oy"; // Auth Token from the Blynk App
+char auth[] = "Your Blynk token"; // Auth Token from the Blynk App
 char ssid[] = "Tuan Nguyen";  // WiFi SSID
 char pass[] = "thangtri123";  // WiFi Password
 
