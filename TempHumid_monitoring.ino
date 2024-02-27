@@ -8,8 +8,8 @@
 #include "DHT.h" // DHT lib
 
 char auth[] = "Your Blynk token"; // Auth Token from the Blynk App
-char ssid[] = "Tuan Nguyen";  // WiFi SSID
-char pass[] = "thangtri123";  // WiFi Password
+char ssid[] = "";  // WiFi SSID
+char pass[] = "";  // WiFi Password
 
 #define DHTPIN 2      // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT11  // DHT 11
